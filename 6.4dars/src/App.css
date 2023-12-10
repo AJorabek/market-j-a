@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul ol {
+  list-style: none;
+}
+h1 {
+  font-size: 40px;
+}
+.App {
+  position: relative;
+}
+.Money {
+  width: 100%;
+  position: fixed;
+  background-color: #000000;
+  color: #fff;
+  h3,
+  h4 {
+    width: 100%;
+  }
+}
+.money {
+  text-align: center;
+  font-size: 35px;
+}
+.things {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  padding-top: 10rem;
+  flex-wrap: wrap;
+  gap: 20px;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hi {
+  width: 100%;
+  padding: 25px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  background-color: #e957575b;
+  gap: 10px;
+  color: #000000;
+  img,
+  p,
+  h4 {
+    width: 100%;
+  }
+}
+.pImg {
+  border-radius: 20px;
+}
+.potato{
+  background-color: rgb(190, 155, 67);
+}
+.red{
+  color: #fff;
+  background-color: red;
+}
+.orange{
+  background-color: orange;
+}
+button{
+  width: 100%;
+  max-width: 150px;
+  padding: 7px 17px;
+}
+button:hover{
+  color: #fff;
+  background-color: transparent;
+}
+button:active{
+  background-color: transparent;
+  color: #ffffff;
+}
